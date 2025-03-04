@@ -1,0 +1,14 @@
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\bin\Debug\net9.0\Maanslogen.Businesslogic.deps.json
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\bin\Debug\net9.0\Maanslogen.Businesslogic.dll
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\bin\Debug\net9.0\Maanslogen.Businesslogic.pdb
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.csproj.AssemblyReference.cache
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.AssemblyInfoInputs.cache
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.AssemblyInfo.cs
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.csproj.CoreCompileInputs.cache
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.dll
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\refint\Maanslogen.Businesslogic.dll
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.pdb
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\ref\Maanslogen.Businesslogic.dll
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\bin\Debug\net9.0\Maanslogen.Businesslogic.runtimeconfig.json
+C:\Users\mfa01\Skrivebord\maanslogen-fullstack\Maanslogen\Maanslogen.Businesslogic\obj\Debug\net9.0\Maanslogen.Businesslogic.genruntimeconfig.cache
