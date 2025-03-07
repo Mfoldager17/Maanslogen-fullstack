@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maanslogen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c15438296d6a6ebc40393c8cb721e079d1ba841")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d82f16f61a7d479cc73586163bdf43fe19bbea1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maanslogen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maanslogen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

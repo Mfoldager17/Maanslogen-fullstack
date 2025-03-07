@@ -13,6 +13,20 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var host = Environment.GetEnvironmentVariable("PGHOST");
+var port = Environment.GetEnvironmentVariable("PGPORT");
+var user = Environment.GetEnvironmentVariable("PGUSER");
+var password = Environment.GetEnvironmentVariable("PGPASSWORD");
+var database = Environment.GetEnvironmentVariable("PGDATABASE");
+
+if (!string.IsNullOrEmpty(host) && !string.IsNullOrEmpty(port) && !string.IsNullOrEmpty(user) &&
+    !string.IsNullOrEmpty(password) && !string.IsNullOrEmpty(database))
+{
+    var connectionString = $"Host={host};Port={port};Username={user};Password={password};Database={database};";
+    app.Configuration["ConnectionStrings:DefaultConnection"] = connectionString;
+}
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
