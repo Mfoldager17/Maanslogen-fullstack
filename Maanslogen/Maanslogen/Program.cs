@@ -19,12 +19,8 @@ var user = Environment.GetEnvironmentVariable("PGUSER");
 var password = Environment.GetEnvironmentVariable("PGPASSWORD");
 var database = Environment.GetEnvironmentVariable("PGDATABASE");
 
-if (!string.IsNullOrEmpty(host) && !string.IsNullOrEmpty(port) && !string.IsNullOrEmpty(user) &&
-    !string.IsNullOrEmpty(password) && !string.IsNullOrEmpty(database))
-{
-    var connectionString = $"Host={host};Port={port};Username={user};Password={password};Database={database};";
-    app.Configuration["ConnectionStrings:DefaultConnection"] = connectionString;
-}
+var connectionString = $"Host={host};Port={port};Username={user};Password={password};Database={database};";
+app.Configuration["ConnectionStrings:DefaultConnection"] = connectionString;
 
 
 if (app.Environment.IsDevelopment())
@@ -37,7 +33,7 @@ using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     var pendingMigrations = dbContext.Database.GetPendingMigrations();
-    
+
 
     if (pendingMigrations.Any())
     {
